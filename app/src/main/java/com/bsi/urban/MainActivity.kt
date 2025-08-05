@@ -12,9 +12,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             UrbanTheme {
-
-                }
+                AppNavigation()
             }
         }
     }
-
+}
